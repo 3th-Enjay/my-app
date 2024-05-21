@@ -8,12 +8,29 @@ body {
 form{
   background-color: skyblue;
   align-self: center;
- justify-content: space-between;
+ justify-content: space-evenly;
  display: flex;
  flex-direction: column;
  border: deepskyblue 2px solid;
  border-radius: 10px;
- width:100%;
- padding: 20%;
- margin-top: 20%;
+}
+
+.container{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 20%;
+  margin-top: 40%;
+  background-color: white;
+  border: deepskyblue 2px solid;
+  border-radius: 10px;
+}
+
+button{
+  margin-top: 5%;
+  background-color: grey;
+  color : white;
+  width: 50%;
 }

@@ -19,7 +19,7 @@ const App = () => {
   };
 
   return (
-    <form onSubmit={handleSubmit} className="form-container">
+    <form onSubmit={handleSubmit} className="container">
       <h1 className="h1">Sign Up</h1>
       <UserName value={userName} onChange={(e) => setUserName(e.target.value)} className="input-field"/>  
       <Email value={email} onChange={(e) => setEmail(e.target.value)} className="input-field"/>
